@@ -13,12 +13,12 @@ import Settings from "./Pages/Settings"
 function Dashboard() {
     const navigate = useNavigate();
 
-    // useEffect(() => {
-    //     const token = authService.getCurrentUser();
-    //     if (!token) {
-    //         navigate("/login"); // Redirect to login if not authenticated
-    //     }
-    // }, [navigate]);
+    useEffect(() => {
+        const token = authService.getCurrentUser();
+        if (!token) {
+            navigate("/login"); // Redirect to login if not authenticated
+        }
+    }, [navigate]);
 
     return (
         <div className='flex h-screen bg-gray-900 text-gray-100 overflow-hidden'>
