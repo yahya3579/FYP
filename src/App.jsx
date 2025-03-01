@@ -94,7 +94,7 @@ function App() {
           <Route path="/settings" element={<protectedRoute><Settings /></protectedRoute>} />
           <Route path="/home" element={<protectedRoute><Home /></protectedRoute>} />
           <Route path="/home/businessAccount" element={<protectedRoute><BusinessAccount /></protectedRoute>} />
-          <Route path="/home/businessAccount/get-started" element={<protectedRoute><BusinessGetStarted /></protectedRoute>} />
+          <Route path="/get-started" element={<protectedRoute><BusinessGetStarted /></protectedRoute>} />
           <Route path="/signup" element={<protectedRoute><BusinessSignUp /></protectedRoute>} />
           <Route path="/BusinessSignIn" element={<protectedRoute><BusinessSignIn /></protectedRoute>} />
           <Route path="/home/AddRestaurant" element={<protectedRoute><AddRestaurant /></protectedRoute>} />

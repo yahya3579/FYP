@@ -281,7 +281,7 @@ export default function BusinessAccount() {
                 Sign Up
               </a>
               <a
-                href="/home/businessAccount/get-started"
+                href="/get-started"
                 className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100"
               >
                 Get started

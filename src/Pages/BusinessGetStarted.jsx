@@ -285,7 +285,7 @@ export default function BusinessGetStarted() {
                 Sign Up
               </a>
               <a
-                href="/get-started"
+                href="/signup"
                 className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100"
               >
                 Get started
